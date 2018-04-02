@@ -22,6 +22,7 @@
 #include <vector>
 #include <string>
 
+#include <boost/version.hpp>
 #include <boost/thread.hpp>
 #include <boost/filesystem.hpp>
 #include <boost/filesystem/path.hpp>
