@@ -10,7 +10,7 @@
 #include <map>
 #include <string>
 #include <vector>
-
+#include <sys/types.h>
 #include <db_cxx.h>
 
 class CAddress;
