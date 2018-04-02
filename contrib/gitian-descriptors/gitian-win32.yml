@@ -46,7 +46,7 @@ script: |
   export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
   export FAKETIME=$REFERENCE_DATETIME
   export TZ=UTC
-  make clean -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$STAGING HoboNickelsd.exe USE_UPNP=0 DEBUGFLAGS="-frandom-seed=HoboNickels" USE_SSE2=1
+  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$STAGING HoboNickelsd.exe USE_UPNP=0 DEBUGFLAGS="-frandom-seed=HoboNickels" USE_SSE2=1
   $HOST-strip HoboNickelsd.exe
   mkdir $OUTDIR/daemon
   cp HoboNickelsd.exe $OUTDIR/daemon
