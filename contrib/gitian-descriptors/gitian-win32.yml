@@ -18,7 +18,7 @@ remotes:
 files:
 - "qt-win32-4.8.5-gitian-r8.zip"
 - "boost-win32-1.47.0-gitian.zip"
-- "HoboNickels-deps-0.0.1.zip"
+- "bitcoin08-deps-win32-gitian-r13.zip"
 script: |
   #
   STAGING=$HOME/staging
@@ -28,7 +28,7 @@ script: |
   cd $STAGING
   unzip ../build/qt-win32-4.8.5-gitian-r8.zip
   unzip ../build/boost-win32-1.47.0-gitian.zip
-  unzip ../build/HoboNickels-deps-0.0.1.zip
+  unzip ../build/bitcoin08-deps-win32-gitian-r13.zip
   cd $HOME/build/
   #
   cd HoboNickels
